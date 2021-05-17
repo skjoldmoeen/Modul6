@@ -1,3 +1,55 @@
-body{
-  background: green;
+body {
+  background: #fff;
+  font-family: roboto-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #444441;
+}
+
+/*grid*/
+
+.grid_container {
+  display: block;
+  grid-template-areas:
+    "header"
+    "introduction"
+    "accordion"
+    "footer";
+}
+
+/*header*/
+.header {
+  grid-area: header;
+  background-color: darkmagenta;
+}
+/*introduction*/
+.introduction_container {
+  grid-area: introduction;
+  background-color: yellow;
+}
+/*accordion*/
+.accordion_container {
+  grid-area: accordion;
+  background-color: green;
+}
+
+/*footer*/
+.footer {
+  grid-area: footer;
+  background-color: pink;
+}
+
+/*tablet size*/
+@media screen and (min-width: 768px) {
+}
+
+/*desktop size*/
+@media screen and (min-width: 1024px) {
+  .grid_container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "accordion introduction"
+      "footer footer";
+  }
 }
