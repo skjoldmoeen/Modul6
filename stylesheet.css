@@ -58,6 +58,7 @@ body {
   background-color: white;
   max-height: 0;
   overflow: hidden;
+  height: 100%;
   transition: max-height 0.2s ease-out;
 }
 
@@ -122,8 +123,9 @@ body {
   .panel {
     padding: 0 18px;
     background-color: white;
-    max-height: 0;
-    overflow: hidden;
+    max-height: 90vh;
+    height: 90vh;
+    overflow: visible;
     transition: max-height 0.2s ease-out;
   }
 }
