@@ -467,6 +467,7 @@ nav a:hover {
   body {
     margin-right: 80px;
   }
+
   /* header*/
   .clear_header {
     grid-area: clearheader;
@@ -480,7 +481,11 @@ nav a:hover {
     max-height: 10vh;
     margin: 1%;
   }
+.spacer{
+  height: 13vh;
+  width: 100%;
 
+}
   .header {
     grid-area: header;
     width: 80px;
@@ -556,6 +561,10 @@ nav a:hover {
   .navbar_link_active {
     color: #5cb71d;
   }
+  .navbar_link_active .navbar_link{
+    color: #5cb71d;
+  }
+
   .main_content {
   }
 
