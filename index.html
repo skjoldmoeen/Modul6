@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="stylesheet.css">
    <link rel="stylesheet" href="https://use.typekit.net/jfr8ipk.css">
-   <script src="java.js" defer></script>
+   <script src="accordion.js" defer></script>
    <script src="steffen.js" defer></script>
    <script src="ingi.js" defer></script>
+   <script src="pernille.js" defer></script>
     <title>Javatest</title>
 </head>
 <body>
@@ -18,9 +19,36 @@
         </div>
         <div class="header">
             <h2>header</h2>
-            <div class="navbar">
+
+<!-- Pernilles kode -->
+            <nav>
+              <div class="sprog">
+                <a href="#">Dansk</a>
+                <a href="#">English</a>
+
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Produkter
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#">Kipgryder</a>
+                  <a href="#">Kipstegere</a>
+                  <a href="#">Kogeborde</a>
+                </div>
+                <a href="#">God viden</a>
+                <a href="#">Om NORQi</a>
+                <a href="#">Kontakt</a>
+              </nav>
+              <button class="hamburger">
+                <div class="bar"></div>
+              </button>
 
             </div>
+
+            </div>
+
+<!-- Pernilles kode slut -->
 
         </div>
 
@@ -61,16 +89,16 @@
                   <span class="year">ÆG</span>
                 </div>
                 <div class="bar-two bar-container">
-                  
+
                   <div class="bar" data-percentage="165°C"><div class="oval"></div></div>
-                  
+
                   <span class="year">KOTELETTER</span>
                 </div>
                 <div class="bar-three bar-container">
                   <div class="bar" data-percentage="175°C"><div class="oval"></div></div>
                   <span class="year">KØD</span>
                 </div>
-                
+
                 <div class="bar-four bar-container">
                   <div class="bar" data-percentage="185°C"><div class="oval"></div></div>
                   <span class="year">MAX. FOR SMØR</span>
