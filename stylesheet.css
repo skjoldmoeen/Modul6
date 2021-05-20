@@ -27,7 +27,7 @@ h2 {
 /*header*/
 .header {
   grid-area: header;
-  background-color: darkmagenta;
+  background-color: #313331;
   width: 100vw;
   position: fixed;
 }
@@ -404,7 +404,7 @@ nav a:hover {
     z-index: 99;
     position: relative;
     background-color: #5CB71D;
-    height: auto;
+    height: 100vh;
 
   }
   .header h2 {
