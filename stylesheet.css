@@ -461,6 +461,10 @@ nav a:hover {
       "menu accordion accordion header"
       "footer footer footer header";
   }
+  /*body*/
+  body {
+    margin-right: 80px;
+  }
   /* header*/
   .clear_header {
     grid-area: clearheader;
@@ -555,21 +559,18 @@ nav a:hover {
 
   /*introduction*/
   .introduction_container {
-    grid-area: introduction;
-    background-color: yellow;
-    margin-top: 15%;
-    padding-top: 0;
     display: none;
   }
   /*accordion*/
   .accordion_container {
     grid-area: accordion;
     background-color: white;
+    margin-top: 15vh;
   }
   .accordion {
-    background-color: #5cb71d;
-    color: #fff;
-    cursor: pointer;
+    background-color: #fff;
+    color: #707070;
+    cursor: unset;
     padding: 18px;
     width: 100%;
     border: none;
@@ -584,7 +585,7 @@ nav a:hover {
 
   .active,
   .accordion:hover {
-    background-color: #5cb71d;
+    background-color: #fff;
   }
 
   .panel {
