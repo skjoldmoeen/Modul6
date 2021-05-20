@@ -35,7 +35,6 @@ h2 {
   display: none;
 }
 
-
 /*Pernilles kode*/
 
 /*navbar*/
@@ -64,7 +63,7 @@ nav a {
   background-color: #313331;
   text-decoration: none;
   list-style: none;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-family: roboto-condensed, sans-serif;
   font-weight: 600;
@@ -78,13 +77,13 @@ nav a {
 }
 
 .sprog a:hover {
-  color: #5CB71D;
+  color: #5cb71d;
   background-color: #313331;
   width: auto;
 }
 
 nav a:hover {
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   width: 100vw;
 }
 
@@ -103,12 +102,14 @@ nav a:hover {
   z-index: 99;
 }
 
-.hamburger .bar, .hamburger:after, .hamburger:before {
-  content: '';
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
   display: block;
   width: 100%;
   height: 5px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 6px 0px;
   transition: 0.4s;
 }
@@ -131,7 +132,7 @@ nav a:hover {
 }
 
 .dropdown .dropbtn:hover {
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   width: 100vw;
 }
 
@@ -146,7 +147,7 @@ nav a:hover {
   padding: 12px 16px;
   text-decoration: none;
   list-style: none;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-family: roboto-condensed, sans-serif;
   font-weight: 600;
@@ -156,19 +157,19 @@ nav a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: #FFF;
+  color: #fff;
   padding: 12px 16px;
   margin-top: 20px;
   text-decoration: none;
   display: block;
   text-align: left;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   width: 100vw;
   font-family: roboto-condensed, sans-serif;
   font-weight: 200;
@@ -176,7 +177,6 @@ nav a:hover {
 }
 
 .dropbtn i {
-
 }
 
 .show {
@@ -184,7 +184,6 @@ nav a:hover {
 }
 
 /*Pernilles kode slut*/
-
 
 /*introduction*/
 .introduction_container {
@@ -254,7 +253,7 @@ nav a:hover {
   z-index: 1;
 }
 
-.bar-graph-vertical .bar {
+.bar-graph-vertical .soejle {
   border-radius: 100px / 50px;
   bottom: 50px;
   position: absolute;
@@ -282,7 +281,7 @@ nav a:hover {
   width: 160px;
 }
 
-.bar-graph-two .bar::after {
+.bar-graph-two .soejle::after {
   -webkit-animation: fade-in-text 2.2s 0.1s forwards;
   -moz-animation: fade-in-text 2.2s 0.1s forwards;
   animation: fade-in-text 2.2s 0.1s forwards;
@@ -299,28 +298,28 @@ nav a:hover {
   padding-top: 40%;
 }
 
-.bar-graph-two .bar-one .bar {
+.bar-graph-two .bar-one .soejle {
   background-color: #5cb71d;
   -webkit-animation: show-bar-one-vertical 1.2s 0.1s forwards;
   -moz-animation: show-bar-one-vertical 1.2s 0.1s forwards;
   animation: show-bar-one-vertical 1.2s 0.1s forwards;
 }
 
-.bar-graph-two .bar-two .bar {
+.bar-graph-two .bar-two .soejle {
   background-color: #5cb71d;
   -webkit-animation: show-bar-two-vertical 1.2s 0.2s forwards;
   -moz-animation: show-bar-two-vertical 1.2s 0.2s forwards;
   animation: show-bar-two-vertical 1.2s 0.2s forwards;
 }
 
-.bar-graph-two .bar-three .bar {
+.bar-graph-two .bar-three .soejle {
   background-color: #5cb71d;
   -webkit-animation: show-bar-three-vertical 1.2s 0.3s forwards;
   -moz-animation: show-bar-three-vertical 1.2s 0.3s forwards;
   animation: show-bar-three-vertical 1.2s 0.3s forwards;
 }
 
-.bar-graph-two .bar-four .bar {
+.bar-graph-two .bar-four .soejle {
   background-color: #5cb71d;
   -webkit-animation: show-bar-four-vertical 1.2s 0.4s forwards;
   -moz-animation: show-bar-four-vertical 1.2s 0.4s forwards;
@@ -398,14 +397,14 @@ nav a:hover {
     background-color: hotpink;
     position: fixed;
     width: 100%;
+    z-index: 3;
   }
   .header {
     width: 80px;
     z-index: 99;
     position: fixed;
-    background-color: #5CB71D;
+    background-color: #5cb71d;
     height: 100vh;
-
   }
   .header h2 {
     position: fixed;
@@ -420,16 +419,16 @@ nav a:hover {
   nav a {
     font-size: 30px;
     margin: 0 0px 40px;
-   }
+  }
 
-   .sprog a {
-     font-size: 20px;
-     margin-top: -12px;
-   }
+  .sprog a {
+    font-size: 20px;
+    margin-top: -12px;
+  }
 
-   nav.is-active {
+  nav.is-active {
     left: 55%;
-   }
+  }
 
   .hamburger {
     width: 42px;
@@ -444,7 +443,6 @@ nav a:hover {
 
   /*Pernilles kode slut*/
 
-
   /*menu desktop  Steffens kode*/
   .navbar {
     grid-area: menu;
@@ -452,23 +450,21 @@ nav a:hover {
     position: fixed;
     padding-top: 10%;
   }
-  .navbar_link{
+  .navbar_link {
     text-decoration: none;
     color: #000;
     font-size: 1.3em;
     font-weight: 300;
   }
-  .navbar li{
+  .navbar li {
     margin-bottom: 30px;
     list-style-type: none;
   }
-  .navbar_link_active{
-    color: #5CB71D;3
+  .navbar_link_active {
+    color: #5cb71d;
   }
-  .main_content{
-
+  .main_content {
   }
-
 
   /*introduction*/
   .introduction_container {
@@ -533,7 +529,7 @@ nav a:hover {
     z-index: 1;
   }
 
-  .bar-graph-vertical .bar {
+  .bar-graph-vertical .soejle {
     border-radius: 100px / 50px;
     bottom: 50px;
     position: absolute;
@@ -561,7 +557,7 @@ nav a:hover {
     min-width: 400px;
   }
 
-  .bar-graph-two .bar::after {
+  .bar-graph-two .soejle::after {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
     -moz-animation: fade-in-text 2.2s 0.1s forwards;
     animation: fade-in-text 2.2s 0.1s forwards;
@@ -578,28 +574,28 @@ nav a:hover {
     padding-top: 40%;
   }
 
-  .bar-graph-two .bar-one .bar {
+  .bar-graph-two .bar-one .soejle {
     background-color: #5cb71d;
     -webkit-animation: show-bar-one-vertical 1.2s 0.1s forwards;
     -moz-animation: show-bar-one-vertical 1.2s 0.1s forwards;
     animation: show-bar-one-vertical 1.2s 0.1s forwards;
   }
 
-  .bar-graph-two .bar-two .bar {
+  .bar-graph-two .bar-two .soejle {
     background-color: #5cb71d;
     -webkit-animation: show-bar-two-vertical 1.2s 0.2s forwards;
     -moz-animation: show-bar-two-vertical 1.2s 0.2s forwards;
     animation: show-bar-two-vertical 1.2s 0.2s forwards;
   }
 
-  .bar-graph-two .bar-three .bar {
+  .bar-graph-two .bar-three .soejle {
     background-color: #5cb71d;
     -webkit-animation: show-bar-three-vertical 1.2s 0.3s forwards;
     -moz-animation: show-bar-three-vertical 1.2s 0.3s forwards;
     animation: show-bar-three-vertical 1.2s 0.3s forwards;
   }
 
-  .bar-graph-two .bar-four .bar {
+  .bar-graph-two .bar-four .soejle {
     background-color: #5cb71d;
     -webkit-animation: show-bar-four-vertical 1.2s 0.4s forwards;
     -moz-animation: show-bar-four-vertical 1.2s 0.4s forwards;
