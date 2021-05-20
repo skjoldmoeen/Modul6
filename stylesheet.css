@@ -403,6 +403,9 @@ nav a:hover {
     width: 80px;
     z-index: 99;
     position: relative;
+    background-color: #5CB71D;
+    height: auto;
+
   }
   .header h2 {
     position: fixed;
