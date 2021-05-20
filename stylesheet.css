@@ -596,6 +596,14 @@ nav a:hover {
     overflow: visible;
     transition: max-height 0.2s ease-out;
   }
+  .wrapper {
+    grid-area: accordion;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+  }
   /* Søjlediagram start*/
   .bar-graph .year {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
