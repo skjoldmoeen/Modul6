@@ -400,6 +400,7 @@ nav a:hover {
     z-index: 3;
   }
   .header {
+    grid-area: header;
     width: 80px;
     z-index: 99;
     position: fixed;
@@ -648,4 +649,7 @@ nav a:hover {
     }
   }
   /*søjlediagram end*/
+  .footer {
+    grid-area: footer;
+  }
 }
