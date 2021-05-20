@@ -198,6 +198,7 @@ nav a:hover {
   grid-area: introduction;
   background-color: yellow;
   padding-top: 40px;
+  display: block;
 }
 
 /*accordion*/
@@ -558,6 +559,7 @@ nav a:hover {
     background-color: yellow;
     margin-top: 15%;
     padding-top: 0;
+    display: none;
   }
   /*accordion*/
   .accordion_container {
