@@ -30,6 +30,13 @@ h2 {
   background-color: #313331;
   width: 100vw;
   position: fixed;
+  z-index: 3;
+}
+.header img {
+  display: block;
+  max-height: 10vh;
+  margin: 1%;
+  padding: 2px;
 }
 .clear_header {
   display: none;
@@ -375,63 +382,63 @@ nav a:hover {
 
 /* Kontaktformular patricks kode */
 
- .wrapper{
-   grid-area: accordion;
-   position: relative;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%);
-   width: 200px;
- }
+.wrapper {
+  grid-area: accordion;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 200px;
+}
 
- .wrapper h2 {
-   font-family: roboto-condensed, sans-serif;
-   color: #5cb71d;
- }
+.wrapper h2 {
+  font-family: roboto-condensed, sans-serif;
+  color: #5cb71d;
+}
 
- .wrapper .input_field input[type="text"],
- .wrapper textarea {
-   border: solid #515f6d 2px;
-   padding: 15px 0 15px 15px;
-   margin-top: 10px;
-   font-size: 14px;
-   width: 100%;
-   font-family: roboto-condensed, sans-serif;
- }
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+  border: solid #515f6d 2px;
+  padding: 15px 0 15px 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100%;
+  font-family: roboto-condensed, sans-serif;
+}
 
- .wrapper textarea {
-   border: solid #515f6d 2px;
-   padding: 15px 0 15px 15px;
-   margin-top: 10px;
-   font-size: 14px;
-   height: 150px;
-   width: 100%;
-   font-family: roboto-condensed, sans-serif;
- }
+.wrapper textarea {
+  border: solid #515f6d 2px;
+  padding: 15px 0 15px 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  height: 150px;
+  width: 100%;
+  font-family: roboto-condensed, sans-serif;
+}
 
- .wrapper #error_message {
-   margin-bottom: 20px;
-   padding: 0px;
-   background: #D36D75;
-   color: black;
-   text-align: center;
-   font-size: 14px;
-   transition: all 0.5s ease;
-   font-family: roboto-condensed, sans-serif;
-   }
+.wrapper #error_message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #d36d75;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  font-family: roboto-condensed, sans-serif;
+}
 
-  .wrapper .btn input[type="submit"] {
-     border: 0;
-     margin-top: 15px;
-     padding: 10px;
-     width: 100%;
-     background-color: #5cb71d;
-     font-weight: bold;
-     cursor: pointer;
-     font-family: roboto-condensed, sans-serif;
- }
+.wrapper .btn input[type="submit"] {
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #5cb71d;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: roboto-condensed, sans-serif;
+}
 
- /*Kontaktformular slut*/
+/*Kontaktformular slut*/
 
 /*footer*/
 .footer {
@@ -459,6 +466,11 @@ nav a:hover {
     width: 100%;
     z-index: 3;
   }
+  .clear_header img {
+    max-height: 10vh;
+    margin: 1%;
+  }
+
   .header {
     grid-area: header;
     width: 80px;
@@ -470,6 +482,9 @@ nav a:hover {
   }
   .header h2 {
     position: fixed;
+  }
+  .header img {
+    display: none;
   }
 
   /*Pernilles kode*/
