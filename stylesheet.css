@@ -139,6 +139,7 @@ nav a:hover {
   overflow: hidden;
 }
 
+
 .dropdown .dropbtn:hover {
   background-color: #2b2b2b;
   width: 100vw;
@@ -192,6 +193,7 @@ nav a:hover {
 }
 
 /*Pernilles kode slut*/
+
 
 /*introduction*/
 .introduction_container {
@@ -555,6 +557,10 @@ nav a:hover {
     color: #5cb71d;
   }
   .main_content {
+  }
+
+  .navbar_item a:hover {
+    color: #5cb71d;
   }
 
   /*introduction*/
