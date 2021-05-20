@@ -405,7 +405,8 @@ nav a:hover {
     z-index: 99;
     position: fixed;
     background-color: #5cb71d;
-    height: 100vh;
+    height: 100%;
+    right: 0;
   }
   .header h2 {
     position: fixed;
