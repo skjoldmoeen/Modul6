@@ -234,6 +234,9 @@ nav a:hover {
   height: 100%;
   transition: max-height 0.2s ease-out;
 }
+#section0 {
+  display: none;
+}
 /*menu*/
 .navbar {
   grid-area: menu;
@@ -454,7 +457,6 @@ nav a:hover {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
       "clearheader clearheader clearheader header"
-      "menu introduction introduction header"
       "menu accordion accordion header"
       "footer footer footer header";
   }
@@ -522,6 +524,10 @@ nav a:hover {
   }
 
   /*Pernilles kode slut*/
+
+  #section0 {
+    display: block;
+  }
 
   /*menu desktop  Steffens kode*/
   .navbar {
