@@ -156,7 +156,7 @@ nav a:hover {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #2b2b2b;
   z-index: 1;
 }
