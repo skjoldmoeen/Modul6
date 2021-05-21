@@ -13,6 +13,9 @@ h2 {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+h3{
+  color: #707070;
+}
 /*grid*/
 
 .grid_container {
@@ -239,6 +242,7 @@ nav a:hover {
   margin-left: 3vw;
   margin-top: 3vh;
 }
+
 .icon_wrapper {
   display: flex;
   width: 100%;
@@ -482,9 +486,11 @@ nav a:hover {
 /*footer*/
 .footer {
   grid-area: footer;
-  background-color: pink;
+  background: url(img/footer-bg-repeat.jpg) repeat center center fixed;
+  height: 500px;
+  z-index: 80;
+  position: inherit;
 }
-
 /*tablet size and desktop*/
 @media screen and (min-width: 768px) {
   .grid_container {
@@ -596,6 +602,9 @@ nav a:hover {
   .main_content {
 
   }
+  .icon_section{
+    margin-left: 0;
+  }
 
   .navbar_item a:hover {
     color: #5cb71d;
@@ -610,19 +619,24 @@ nav a:hover {
     grid-area: accordion;
     background-color: white;
     margin-top: 15vh;
+    padding-left: 30px;
   }
   .accordion {
     background-color: #fff;
-    color: #707070;
     cursor: unset;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
-    font-family: roboto-condensed, sans-serif;
+    border-bottom: 4px solid #5cb71d;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: #707070;
+    width: 100%;
+    font-size: 26px;
+    transition: 0.4s;
     font-weight: 400;
     font-style: normal;
   }
@@ -635,10 +649,13 @@ nav a:hover {
   .panel {
     padding: 0 18px;
     background-color: white;
-    max-height: 100vh;
     height: 100vh;
+    max-height: 100%;
     overflow: visible;
     transition: max-height 0.2s ease-out;
+  }
+  .text_area{
+    margin-left: 0;
   }
   .wrapper {
     grid-area: accordion;
@@ -791,5 +808,6 @@ nav a:hover {
   /*søjlediagram end*/
   .footer {
     grid-area: footer;
+    position: relative;
   }
 }
