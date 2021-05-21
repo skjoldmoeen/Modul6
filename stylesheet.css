@@ -254,6 +254,7 @@ nav a:hover {
 }
 
 .icon {
+  justify-content: center;
   height: 50px;
   width: 50px;
   display: flex;
@@ -503,7 +504,7 @@ nav a:hover {
   .clear_header {
     grid-area: clearheader;
     display: block;
-    background-color: hotpink;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -593,6 +594,7 @@ nav a:hover {
   }
 
   .main_content {
+
   }
 
   .navbar_item a:hover {
