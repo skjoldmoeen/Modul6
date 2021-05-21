@@ -649,10 +649,11 @@ nav a:hover {
   .panel {
     padding: 0 18px;
     background-color: white;
-    height: 100vh;
+    height: auto;
     max-height: 100%;
     overflow: visible;
     transition: max-height 0.2s ease-out;
+    min-height: 100vh;
   }
   .text_area{
     margin-left: 0;
