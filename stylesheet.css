@@ -139,7 +139,6 @@ nav a:hover {
   overflow: hidden;
 }
 
-
 .dropdown .dropbtn:hover {
   background-color: #2b2b2b;
   width: 100vw;
@@ -194,7 +193,6 @@ nav a:hover {
 
 /*Pernilles kode slut*/
 
-
 /*introduction*/
 .introduction_container {
   grid-area: introduction;
@@ -237,35 +235,35 @@ nav a:hover {
   height: 100%;
   transition: max-height 0.2s ease-out;
 }
-.icon_section{
+.icon_section {
   margin-left: 3vw;
   margin-top: 3vh;
 }
-.icon_wrapper{
+.icon_wrapper {
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
   margin-bottom: 2vh;
 }
-.icon_wrapper h4{
+.icon_wrapper h4 {
   font-weight: 400;
 }
-.icon_top{
+.icon_top {
   margin-bottom: 5vh;
 }
 
-.icon{
+.icon {
   height: 50px;
   width: 50px;
   display: flex;
   margin-right: 5vw;
 }
-.icon_text{
+.icon_text {
   display: flex;
 }
 
-.text_area{
+.text_area {
   margin-left: 3vw;
   margin-bottom: 5vh;
 }
@@ -590,7 +588,7 @@ nav a:hover {
   .navbar_link_active {
     color: #5cb71d;
   }
-  .navbar_link_active .navbar_link{
+  .navbar_link_active .navbar_link {
     color: #5cb71d;
   }
 
