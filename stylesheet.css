@@ -558,6 +558,14 @@ nav a:hover {
     left: 55%;
   }
 
+.arrow{
+  border: solid #707070;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
   .hamburger {
     width: 42px;
     margin-left: 25%;
@@ -581,12 +589,20 @@ nav a:hover {
     display: block;
     position: fixed;
     padding-top: 10%;
+    padding-right: 80px;
+
   }
   .navbar_link {
     text-decoration: none;
-    color: #000;
+    color: #707070;
     font-size: 1.3em;
     font-weight: 300;
+
+  }
+  .navbar_link:nth-child(2) {
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
   }
   .navbar li {
     margin-bottom: 30px;
@@ -598,10 +614,16 @@ nav a:hover {
   .navbar_link_active .navbar_link {
     color: #5cb71d;
   }
-
-  .main_content {
-
+  .navbar_link_active .navbar_link:nth-child(2) {
+    border: solid #5cb71d;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
   }
+
+
+
   .icon_section{
     margin-left: 0;
   }
