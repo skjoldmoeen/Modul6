@@ -531,7 +531,6 @@ nav a:hover {
   .clear_header {
     grid-area: clearheader;
     display: block;
-    background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -699,6 +698,7 @@ nav a:hover {
     font-weight: 400;
     font-style: normal;
     display: flex;
+    padding-left: 0;
   }
   .accordion .arrow {
     display: none;
