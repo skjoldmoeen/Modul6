@@ -70,6 +70,7 @@ h3 {
   height: 100vh;
   background-color: #5cb71d;
   transition: 1s;
+  display: none;
 }
 
 .welcome_logo {
@@ -300,6 +301,68 @@ nav a:hover {
   background-color: #5cb71d;
 }
 
+
+.support_left {
+  margin-bottom: 80px;
+
+}
+
+}
+.support_left .accordion_container {
+  grid-area: accordion;
+  background-color: white;
+  margin-top: 3.2vh;
+  padding-left: 0px;
+}
+.support_left .accordion {
+  background-color: #fff;
+  color: #707070;
+  cursor: pointer;
+  padding: 30px 0 30px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  font-family: roboto-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.support_left .panel {
+  min-height: 0;
+  height: 0;
+  padding: 0 18px;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  height: 100%;
+  transition: max-height 0.2s ease-out;
+}
+.support_left .active,
+.accordion:hover {
+}
+.support_left .arrow {
+  border: solid #707070;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+  margin-right: 9px;
+}
+.support_left .active .arrow {
+  transform: rotate(-135deg);
+  margin-top: 10px;
+}
+
+
+
 .panel {
   padding: 0 18px;
   background-color: white;
@@ -339,10 +402,10 @@ nav a:hover {
   height: 50px;
   width: 50px;
   display: flex;
-  margin-right: 3vw;
 }
 .icon_text {
   display: flex;
+  margin-left: 50px;
 }
 
 .text_area {
@@ -423,7 +486,8 @@ nav a:hover {
 .wrapper {
   grid-area: accordion;
   position: relative;
-  width: 80vw;
+  width: 97%;
+
 }
 
 .wrapper h2 {
@@ -466,13 +530,14 @@ nav a:hover {
   border: 0;
   margin-top: 15px;
   padding: 10px;
-  width: 100%;
+  width: 50%;
   background-color: #5cb71d;
   font-weight: bold;
   cursor: pointer;
   font-family: roboto-condensed, sans-serif;
   color: #fff;
   margin-bottom: 50px;
+  margin-left: 25%;
 }
 
 /*Kontaktformular slut*/
@@ -696,18 +761,26 @@ nav a:hover {
   .icon_wrapper {
     display: flex;
     width: 100%;
-    align-items: left;
+    align-items: center;
     margin-bottom: 2vh;
     flex-direction: column;
   }
   .icon_wrapper h4 {
     font-weight: 400;
+    font-size: 20px;
+    color:#707070;
   }
   .icon_top {
     display: flex;
     margin-bottom: 5vh;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     margin-left: 0;
+
+  }
+  .icon_top img{
+    height: 70px;
+    width: 70px;
   }
 
   .icon {
@@ -715,10 +788,13 @@ nav a:hover {
     height: 50px;
     width: 50px;
     display: flex;
-    margin-right: 3vw;
   }
   .icon_text {
     display: flex;
+    margin-left: 0;
+  }
+  .icon_text h3 {
+    margin-top: 40px;
   }
 
   .navbar_item a:hover {
