@@ -14,7 +14,7 @@ h2 {
   margin-block-end: 0em;
 }
 h3 {
-    color: #707070;
+    color: #444441;
     font-size: 18px;
 }
 /*grid*/
@@ -391,10 +391,11 @@ nav a:hover {
 }
 .icon_wrapper h4 {
   font-weight: 400;
+  color: #444441;
 }
 .icon_top {
   display: flex;
-  margin-bottom: 5vh;
+  margin-bottom: 8vh;
   margin-left: 3vw;
   flex-direction: row;
   margin-top: 30px;
@@ -409,11 +410,19 @@ nav a:hover {
 .icon_text {
   display: flex;
   margin-left: 50px;
+  color: #444441;
+}
+.icon_text h3{
+  color: #444441;
+  font-size: 20px;
 }
 
 .text_area {
   margin-left: 3vw;
   margin-bottom: 5vh;
+}
+.text_area b{
+  color: #707070;
 }
 
 #section0 {
@@ -530,19 +539,22 @@ nav a:hover {
 }
 
 .wrapper .btn input[type="submit"] {
-  border: 0;
-  margin-top: 15px;
-  padding: 10px;
-  width: 50%;
-  background-color: #5cb71d;
-  font-weight: bold;
-  cursor: pointer;
-  font-family: roboto-condensed, sans-serif;
-  color: #fff;
-  margin-bottom: 50px;
-  margin-left: 25%;
+    font-size: 20px;
+    border: 0;
+    margin-top: 15px;
+    padding: 19px;
+    width: 60%;
+    background-color: #5cb71d;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: roboto-condensed, sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+  margin-left: 20%;
 }
-
+input:focus {
+  outline: none;
+}
 /*Kontaktformular slut*/
 
 /*footer*/
@@ -665,6 +677,9 @@ nav a:hover {
   .sprog a {
     font-size: 20px;
     margin-top: -12px;
+  }
+  .sprog a:nth-child(1) {
+  color: #5cb71d;
   }
 
   nav.is-active {
@@ -890,7 +905,7 @@ nav a:hover {
   .data h2 {
     font-weight: 300;
     font-size: 16px;
-    margin-left: -35px;
+    margin-left: -52%;
   }
   .oval {
     width: 50px;
@@ -976,7 +991,19 @@ nav a:hover {
     height: 80vh;
     padding-left: 2vw;
   }
-
+  .wrapper .btn input[type="submit"] {
+      font-size: 16px;
+      border: 0;
+      margin-top: 15px;
+      padding: 17px;
+      width: 50%;
+      background-color: #5cb71d;
+      font-weight: bold;
+      cursor: pointer;
+      color: #fff;
+      margin-bottom: 50px;
+      margin-left: 27%;
+  }
   .footer {
     display: flex;
     grid-area: footer;

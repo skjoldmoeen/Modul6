@@ -1,4 +1,4 @@
-//Steffen java
+//Steffen javascript
 
 // Funktion til smoothscroll
 const makeNavLinksSmooth = () => {
