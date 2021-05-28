@@ -143,6 +143,9 @@ nav a {
   margin-bottom: 5%;
   margin-top: 2%;
 }
+.sprog a:nth-child(1) {
+color: #5cb71d;
+}
 
 .sprog a:hover {
   color: #5cb71d;
