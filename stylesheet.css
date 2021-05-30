@@ -87,7 +87,7 @@ h3 {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .logo.in_action {
@@ -634,6 +634,11 @@ input:focus {
   body {
     margin-right: 80px;
   }
+  .logo {
+
+    font-size: 5em;
+  }
+
 
   /* header*/
   .clear_header {
