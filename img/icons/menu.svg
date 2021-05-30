@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.35 21.19"><defs><style>.cls-1{fill:#60b22f;}.cls-2{fill:#1d1d1b;}</style></defs><g id="Lag_2" data-name="Lag 2"><g id="Lag_2-2" data-name="Lag 2"><circle class="cls-1" cx="2.55" cy="2.55" r="2.55"/><circle class="cls-1" cx="2.55" cy="18.64" r="2.55"/><circle class="cls-1" cx="2.55" cy="10.6" r="2.55"/><line class="cls-1" x1="9.85" y1="2.55" x2="25.39" y2="2.55"/><path class="cls-2" d="M9.85,3.55H25.39a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z"/><line class="cls-1" x1="9.85" y1="10.6" x2="22.1" y2="10.6"/><path class="cls-2" d="M9.85,11.6H22.1a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z"/><line class="cls-1" x1="9.85" y1="18.64" x2="20.12" y2="18.64"/><path class="cls-2" d="M9.85,19.64H20.12a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z"/></g></g></svg>
+<svg id="Lag_2" data-name="Lag 2" xmlns="http://www.w3.org/2000/svg" width="26.39" height="21.19" viewBox="0 0 26.39 21.19">
+  <g id="Lag_2-2" data-name="Lag 2">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="2.55" cy="2.55" r="2.55" transform="translate(0 0)" fill="#60b22f"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="2.55" cy="2.55" r="2.55" transform="translate(0 16.09)" fill="#60b22f"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="2.55" cy="2.55" r="2.55" transform="translate(0 8.05)" fill="#60b22f"/>
+    <line id="Line_87" data-name="Line 87" x2="15.54" transform="translate(9.85 2.55)" fill="#60b22f"/>
+    <path id="Path_82" data-name="Path 82" d="M9.85,3.55H25.39a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z" fill="#444441"/>
+    <line id="Line_88" data-name="Line 88" x2="12.25" transform="translate(9.85 10.6)" fill="#60b22f"/>
+    <path id="Path_83" data-name="Path 83" d="M9.85,11.6H22.1a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z" fill="#444441"/>
+    <line id="Line_89" data-name="Line 89" x2="10.27" transform="translate(9.85 18.64)" fill="#60b22f"/>
+    <path id="Path_84" data-name="Path 84" d="M9.85,19.64H20.12a1,1,0,0,0,0-2H9.85a1,1,0,0,0,0,2Z" fill="#444441"/>
+  </g>
+</svg>
