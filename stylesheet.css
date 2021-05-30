@@ -71,6 +71,7 @@ h3 {
   height: 100vh;
   background-color: #5cb71d;
   transition: 1s;
+  z-index: 999;
 }
 
 .welcome_logo {
