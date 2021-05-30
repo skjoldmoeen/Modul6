@@ -14,8 +14,8 @@ h2 {
   margin-block-end: 0em;
 }
 h3 {
-    color: #444441;
-    font-size: 18px;
+  color: #444441;
+  font-size: 18px;
 }
 /*grid*/
 
@@ -144,7 +144,7 @@ nav a {
   margin-top: 2%;
 }
 .sprog a:nth-child(1) {
-color: #5cb71d;
+  color: #5cb71d;
 }
 
 .sprog a:hover {
@@ -245,9 +245,6 @@ nav a:hover {
   font-style: normal;
 }
 
-.dropbtn i {
-}
-
 .show {
   display: block;
 }
@@ -272,7 +269,8 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
 }
-.center p,h1 {
+.center p,
+h1 {
   text-align: center;
 }
 
@@ -307,13 +305,10 @@ nav a:hover {
   background-color: #5cb71d;
 }
 
-
 .support_left {
   margin-bottom: 80px;
-
 }
 
-}
 .support_left .accordion_container {
   grid-area: accordion;
   background-color: white;
@@ -367,8 +362,6 @@ nav a:hover {
   margin-top: 10px;
 }
 
-
-
 .panel {
   padding: 0 18px;
   background-color: white;
@@ -415,7 +408,7 @@ nav a:hover {
   margin-left: 50px;
   color: #444441;
 }
-.icon_text h3{
+.icon_text h3 {
   color: #444441;
   font-size: 20px;
 }
@@ -424,7 +417,7 @@ nav a:hover {
   margin-left: 3vw;
   margin-bottom: 5vh;
 }
-.text_area b{
+.text_area b {
   color: #707070;
 }
 
@@ -502,7 +495,6 @@ nav a:hover {
   grid-area: accordion;
   position: relative;
   width: 97%;
-
 }
 
 .wrapper h2 {
@@ -542,17 +534,17 @@ nav a:hover {
 }
 
 .wrapper .btn input[type="submit"] {
-    font-size: 20px;
-    border: 0;
-    margin-top: 15px;
-    padding: 19px;
-    width: 60%;
-    background-color: #5cb71d;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: roboto-condensed, sans-serif;
-    color: #fff;
-    margin-bottom: 50px;
+  font-size: 20px;
+  border: 0;
+  margin-top: 15px;
+  padding: 19px;
+  width: 60%;
+  background-color: #5cb71d;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: roboto-condensed, sans-serif;
+  color: #fff;
+  margin-bottom: 50px;
   margin-left: 20%;
 }
 input:focus {
@@ -635,10 +627,8 @@ input:focus {
     margin-right: 80px;
   }
   .logo {
-
     font-size: 5em;
   }
-
 
   /* header*/
   .clear_header {
@@ -687,7 +677,7 @@ input:focus {
     margin-top: -12px;
   }
   .sprog a:nth-child(1) {
-  color: #5cb71d;
+    color: #5cb71d;
   }
 
   nav.is-active {
@@ -794,7 +784,7 @@ input:focus {
   .icon_wrapper h4 {
     font-weight: 400;
     font-size: 20px;
-    color:#707070;
+    color: #707070;
   }
   .icon_top {
     display: flex;
@@ -802,9 +792,8 @@ input:focus {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
-
   }
-  .icon_top img{
+  .icon_top img {
     height: 70px;
     width: 70px;
   }
@@ -1000,17 +989,17 @@ input:focus {
     padding-left: 2vw;
   }
   .wrapper .btn input[type="submit"] {
-      font-size: 16px;
-      border: 0;
-      margin-top: 15px;
-      padding: 17px;
-      width: 50%;
-      background-color: #5cb71d;
-      font-weight: bold;
-      cursor: pointer;
-      color: #fff;
-      margin-bottom: 50px;
-      margin-left: 27%;
+    font-size: 16px;
+    border: 0;
+    margin-top: 15px;
+    padding: 17px;
+    width: 50%;
+    background-color: #5cb71d;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 27%;
   }
   .footer {
     display: flex;
