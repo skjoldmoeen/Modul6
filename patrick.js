@@ -1,10 +1,10 @@
 function validation (){
-  var name = document.getElementById("name").value;
-  var number = document.getElementById("number").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
-  var error_message = document.getElementById("error_message");
-  var text;
+  let name = document.getElementById("name").value;
+  let number = document.getElementById("number").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+  let error_message = document.getElementById("error_message");
+  let text;
 
   error_message.style.padding = "10px";
 
